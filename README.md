@@ -38,9 +38,9 @@ It scores consultant fit, summarizes strengths & weaknesses, and suggests interv
     npm install
     ```
 
-3. Create .env file in root and add your API key:
+3. Place the Groq API key in constants.ts:
     ```
-    VITE_API_KEY=your_api_key_here
+    API_KEY=your_api_key_here
     ```
 
 4. Run the development server:
@@ -59,8 +59,8 @@ It scores consultant fit, summarizes strengths & weaknesses, and suggests interv
 src/
  ├─ components/       # React components
  ├─ data/             # Mock profiles data
+ ├─ constants/        # Constants data
  ├─ hooks/            # Custom React hooks
- ├─ styles/           # TailwindCSS configuration and styles
  ├─ App.jsx           # Main React app
  └─ main.jsx          # Entry point
 ```
